@@ -113,7 +113,7 @@ A what-if parameter lets the viewer set a target checkout completion rate. It re
 
 ---
 
-## Dashboard preview (work in progress: pages 1 and 2 of 5 so far)
+## Dashboard preview (work in progress: pages 1 to 3 of 5 so far)
 
 **Page 1: Overview**
 
@@ -123,7 +123,11 @@ A what-if parameter lets the viewer set a target checkout completion rate. It re
 
 ![Acquisition page](powerbi/screenshots/page2_acquisition.png)
 
-The Funnel, Products and Holiday and YoY pages are still being built. The `.pbix` file will be updated as they are finished.
+**Page 3: Funnel**
+
+![Funnel page](powerbi/screenshots/page3_funnel.png)
+
+The Products and Holiday and YoY pages are still being built. The `.pbix` file will be updated as they are finished.
 
 ---
 
@@ -142,7 +146,7 @@ ga4-ecommerce-analytics/
     04_products.sql            product types and product groups
     05_seasonality.sql         holiday vs normal days, year-over-year, returning visitors
   powerbi/
-    GA4_Analysis.pbix          Power BI report (pages 1-2 so far)
+    GA4_Analysis.pbix          Power BI report (pages 1-2 so far; page 3 is in the screenshots)
     screenshots/
 ```
 
