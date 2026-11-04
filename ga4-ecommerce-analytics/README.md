@@ -1,4 +1,4 @@
-# GA4 E-commerce Analytics: PostgreSQL to Power BI
+# GA4 E-Commerce Analytics: PostgreSQL to Power BI
 
 Where does an online store lose buyers, and which channels, devices and products deserve more investment? An end-to-end analysis of recent Google Analytics 4 data from the Google Merchandise Store, using SQL (PostgreSQL) and a 5-page Power BI dashboard.
 
