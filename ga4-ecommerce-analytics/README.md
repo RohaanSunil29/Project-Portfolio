@@ -113,15 +113,39 @@ A what-if parameter lets the viewer set a target checkout completion rate. It re
 
 ---
 
-## Repository contents (planned)
+## Dashboard preview (work in progress: pages 1 and 2 of 5 so far)
+
+**Page 1: Overview**
+
+![Overview page](powerbi/screenshots/page1_overview.png)
+
+**Page 2: Acquisition**
+
+![Acquisition page](powerbi/screenshots/page2_acquisition.png)
+
+The Funnel, Products and Holiday and YoY pages are still being built. The `.pbix` file will be updated as they are finished.
+
+---
+
+## Repository contents
 
 ```
 ga4-ecommerce-analytics/
   README.md
-  data/        daily_traffic.csv, monthly_items.csv, funnel_ga4.csv
-  sql/         00_raw_tables.sql ... 05_seasonality.sql
-  powerbi/     ga4_dashboard.pbix, screenshots/
-  docs/        recommendation memo, results deck
+  data/
+    funnel_ga4.csv             GA4 user funnel (25 rows, copied by hand from a GA4 exploration)
+  sql/
+    00_raw_tables.sql          staging tables for the CSV imports
+    01_load.sql                cleaning + data quality checks
+    02_channels.sql            channel analysis
+    03_funnel.sql              funnel analysis
+    04_products.sql            product types and product groups
+    05_seasonality.sql         holiday vs normal days, year-over-year, returning visitors
+  powerbi/
+    GA4_Analysis.pbix          Power BI report (pages 1-2 so far)
+    screenshots/
 ```
 
-*Findings and screenshots will be added once the dashboard is finished.*
+`daily_traffic.csv` and `monthly_items.csv` are not included yet. Re-export them from Looker Studio using the steps above.
+
+*Findings and the remaining dashboard pages will be added as the project is finished.*

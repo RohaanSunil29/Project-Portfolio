@@ -1,0 +1,26 @@
+device,step_order,step_name,active_users
+Total,1,Session start,791784
+mobile,1,Session start,498213
+desktop,1,Session start,285934
+tablet,1,Session start,4885
+smart tv,1,Session start,42
+Total,2,View item,175799
+mobile,2,View item,61065
+desktop,2,View item,113826
+tablet,2,View item,1572
+smart tv,2,View item,3
+Total,3,Add to cart,49735
+mobile,3,Add to cart,12123
+desktop,3,Add to cart,37150
+tablet,3,Add to cart,336
+smart tv,3,Add to cart,0
+Total,4,Begin checkout,26189
+mobile,4,Begin checkout,4906
+desktop,4,Begin checkout,21022
+tablet,4,Begin checkout,117
+smart tv,4,Begin checkout,0
+Total,5,Purchase,13051
+mobile,5,Purchase,1271
+desktop,5,Purchase,11753
+tablet,5,Purchase,33
+smart tv,5,Purchase,0
