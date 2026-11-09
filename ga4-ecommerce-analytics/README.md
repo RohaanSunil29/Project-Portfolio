@@ -44,6 +44,48 @@ The Google Merchandise Store is a real, live e-commerce site. Between 1 October 
 
 ---
 
+## Key findings (1 Oct 2025 - 30 Sep 2026)
+
+**Headline:** the store's traffic is growing but its sales are not. Mobile visitors rarely reach a product page, and those who start checkout complete it half as often as desktop users.
+
+### 1. Channels: volume vs value
+- Direct brings **53.7% of sessions but 48.4% of revenue** (value index 0.91, below average).
+- **Email (2.39) and Referral (2.23)** visits are worth more than twice the average, but together they are only about 5% of sessions.
+- Unassigned traffic is 7.8% of sessions but 1.8% of revenue (a tracking gap, reported as a data limitation).
+- Mobile converts worse than desktop in **every** channel, and Direct is the worst case: 0.1% on mobile vs 2.9% on desktop.
+
+### 2. Funnel: where buyers are lost
+- Mobile is **63% of users but about 10% of buyers** (1,271 of 13,051).
+- **78% of users never view a product** (only 22.2% reach "view item").
+- Mobile users view a product 12.3% of the time (desktop 39.8%) and buy at **0.26%** (desktop 4.11%).
+- Of users who begin checkout, **25.9% complete it on mobile vs 55.9% on desktop**.
+- Both funnels (actions from the traffic table, people from GA4) point to the same leaks.
+- What-if estimate: if mobile checkout completion matched desktop, mobile would gain about **1,470 buyers (+11% store-wide)**.
+
+### 3. Products
+- Sweatshirts and jackets are **12% of the range but 22% of revenue** (about $9.0k per product vs a $4.9k average).
+- Stationery is the reverse: 14% of the range, 9% of revenue.
+- Three of the five most-viewed sweatshirts add to cart at only 15-16%, which makes them candidates for price and presentation tests.
+- A check of the live store on 29 Oct 2026 found that 6 of the 10 most-viewed apparel products are no longer sold, and two of the four still on sale lack core sizes (these are hypotheses, not proven causes).
+- **Tracking gap:** 147 of 510 products (29%) record more add-to-carts than product views, so item views are undercounted. View-to-cart rates are only compared within apparel.
+
+### 4. Seasonality
+- Black Friday to Cyber Monday earned **$16.7k per day, 2.5x a normal day ($6.8k)**, on almost the same traffic (+1.7%), because conversion was 3.7% vs 1.2% on normal days.
+- Conversion already doubles from 1 November; Christmas week collapses (revenue -54% vs a normal day).
+- **Year over year (September):** sessions **+42.3%**, revenue **+0.2%**, conversion 2.05% to 1.37%. For 1-25 October: sessions +55.8%, revenue +2.6%. The extra traffic is not buying.
+- Returning visitors bring 70-80% of revenue every month.
+
+### Recommendations
+1. **Fix the mobile journey:** improve product discovery (navigation, search, landing pages) and simplify mobile checkout. Closing the checkout gap alone is worth about +11% buyers.
+2. **Manage the range around what sells:** keep core sizes (S-L) in stock for best-selling sweatshirts, restock proven winners before dropping them, and trim or bundle the stationery long tail.
+3. **Invest in quality traffic and retention, not volume:** grow Email and Referral, start holiday campaigns on 1 November, promote a shipping cut-off date to protect December sales, and run a tracking audit (Unassigned traffic and missing product views).
+
+### Limitations
+- The demo property only holds data from 20 Aug 2025, so there is no 2024 holiday to compare with. Year-over-year only covers September and 1-25 October.
+- The data is aggregated (no raw events), and the what-if figure is an estimate, not a forecast.
+
+---
+
 ## Data extraction steps
 
 1. **Learn the GA4 interface.** Open the demo account, then note last month's sessions, purchases and revenue for the top channels and the top products. These numbers are later used to check the exports.
