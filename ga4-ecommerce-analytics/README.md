@@ -158,4 +158,4 @@ ga4-ecommerce-analytics/
 
 `daily_traffic.csv` and `monthly_items.csv` are not included yet. Re-export them from Looker Studio using the steps above.
 
-*Findings and the remaining dashboard pages will be added as the project is finished.*
+*A findings summary and the recommendation memo will be added.*
